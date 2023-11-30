@@ -430,10 +430,10 @@ We document the data-entry errors that slipped past both the author and the jour
 @Claassen2020b [, 51] concludes that when "elected leaders start dismantling democratic institutions and rights, public mood is likely to swing rapidly toward democracy again, providing something of an obstacle to democratic backsliding."
 We show that, after data-entry errors are corrected, there is no empirical evidence that public support responds thermostatically to changes in democracy in this way.
 
-Before elaborating, we note that it is impossible to tell with complete certainty the exact reason for the issues we identify; it is possible that coding mistakes or even intentional decisions are at fault rather than data-entry errors strictly speaking. 
-Further, our point here is not to criticize a particular result, but to highlight a case that "reflects on typical robustness challenges" [@JanzFreese2021, 306] and so to illuminate how idiosyncratic manual data entry processes can cause problems for empirical research.
-On this basis, we conclude with four practical suggestions to help political scientists reduce data-entry errors and their impact.
-Rather than merely a single replication of a difficult-to-detect phenomenon, we hope readers will also consider this work as a contribution to the growing "open science" movement to build more reliable and transparent research both in and beyond social science [@ChristensenEtAl2019; @EngzellRohrer2021].
+<!-- Before elaborating, we note that it is impossible to tell with complete certainty the exact reason for the issues we identify; it is possible that coding mistakes or even intentional decisions are at fault rather than data-entry errors strictly speaking.  -->
+<!-- Further, our point here is not to criticize a particular result, but to highlight a case that "reflects on typical robustness challenges" [@JanzFreese2021, 306] and so to illuminate how idiosyncratic manual data entry processes can cause problems for empirical research. -->
+<!-- On this basis, we conclude with four practical suggestions to help political scientists reduce data-entry errors and their impact. -->
+<!-- Rather than merely a single replication of a difficult-to-detect phenomenon, we hope readers will also consider this work as a contribution to the growing "open science" movement to build more reliable and transparent research both in and beyond social science [@ChristensenEtAl2019; @EngzellRohrer2021]. -->
 
 
 ## Data-Entry Errors and Democratic Support {.unlisted .unnumbered}
