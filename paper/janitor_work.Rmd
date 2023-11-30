@@ -4,7 +4,7 @@ output:
     fig_caption: yes
     keep_tex: no
     toc: no
-    number_sections: no
+    number_sections: yes
     latex_engine: xelatex
     # pandoc_args: --lua-filter=multiple-bibliographies.lua
 title: |
@@ -440,7 +440,7 @@ On this basis, we conclude with four practical suggestions to help political sci
 Rather than merely a single replication of a difficult-to-detect phenomenon, we hope readers will also consider this work as a contribution to the growing "open science" movement to build more reliable and transparent research both in and beyond social science [@ChristensenEtAl2019; @EngzellRohrer2021].
 
 
-## Data-Entry Errors and Democratic Support
+## Data-Entry Errors and Democratic Support {.unlisted .unnumbered}
 
 With democracy under increasing threat in countries around the world, how the public reacts is a crucial question.
 According to a classic and still vibrant literature, growing experience with democratic governance helps generate robust public support for democracy [see, e.g., @Lipset1959a; @Welzel2013; @Wuttke2022].
@@ -541,7 +541,7 @@ Finally, although not depicted on this plot, data-entry errors were also evident
 This was an issue for some `r {nrow(needed)/nrow(sd) * 100} %>% round()`% of the country-year observations.
 
 
-## Consequences for Inference
+## Consequences for Inference {.unlisted .unnumbered}
 
 ```{r corrected_cm5, eval=FALSE, cache=FALSE, include=FALSE, results=FALSE}
 # omit eval=FALSE to re-generate the corrected democracy support series
@@ -1199,25 +1199,25 @@ And to the extent they succeed, their opponents are increasingly unable to make 
 Absent its mechanism, the thermostat cannot operate on the public's democratic support.
 
 
-## Discussion
+## Discussion {.unlisted .unnumbered}
 
 The analysis above reveals that data-entry errors are an especially pernicious threat to the credibility of our results.
 The threat is a subtle one that is not easily detected.
 To discern it requires close scrutiny of every manual entry; merely examining the data and their distribution will uncover few errors [@Barchard2011, 1837-1838].
-Although failure to find support for a research hypothesis may prompt us to undertake a such a close review, an analysis that yields statistical significance is unlikely to trigger what will likely be, as in the above example, a time-consuming and difficult effort [see @Gelman2014, 464].
-<!-- These different courses put us in 'the garden of forking paths,' rendering our findings suspect even when we only ever perform a single analysis [@Gelman2014, 464]. -->
+Although failure to find support for a research hypothesis may prompt us to undertake such a close review, an analysis that yields statistical significance is unlikely to trigger what will likely be, as in the above example, a time-consuming and difficult effort.
+These different courses put us in 'the garden of forking paths,' rendering our findings suspect even when we only ever perform a single analysis [@Gelman2014, 464].
 
 This leads us to recommend the following steps to reduce possible data-entry errors.
-First, __automate data entry__: we suggest researchers to consider reducing reliance on manual data entry and increase the extent to which data wrangling is performed computationally.
-Readers should be aware that our suggestion does *not* imply that computers are always superior to people for this purpose. 
+First, __automate data entry__: we suggest researchers consider reducing reliance on manual data entry and increasing the extent to which data wrangling is performed computationally.
+Readers should be aware that our suggestion does not imply that computers are _always_ superior to people for this purpose. 
 Instead, automated coding should always involve sensitive human design and systematic supervision [see @Breznau2021; @Grimmer2015].
 Still, given the convenience of automatic data entry in documentation and reproduction, we encourage researchers to use it as much as possible instead of entering data manually to increase the efficacy and transparency of their data processing operations.^[For a systematic discussion of the function of automated data processes in social science, see @Weidmann2023.]
 
 In making this recommendation, we are aware that being open and transparent in this way takes effort [@EngzellRohrer2021].
 But as researchers automate more of their data entry, the chances that they can reuse their code in subsequent projects improve.
-In fact, many common janitor-work chores already have been packaged as open-source software that to make researchers' task more straightforward and easier.^[
+In fact, many common janitor-work chores already have been packaged as open-source software that to make researchers' task both easier and more straightforward.^[
 For example, see `readtext` [@Benoit2021] for formatting text files and `DCPOtools` [@Solt2018] for aggregating cross-sectional time-series public-opinion surveys.]
-<!-- "Write code instead of working by hand," as @Christensen2019 [, 197] admonish, "don't use Microsoft Excel if it can be avoided." -->
+"Write code instead of working by hand," as @Christensen2019 [, 197] admonish, "don't use Microsoft Excel if it can be avoided."
 
 Second, __use the double-entry method__: when manual data entry cannot be avoided, each entry should be made twice.
 Double entry is labor intensive, but experiments have shown that it reduces error rates by thirty-fold even when done immediately after the initial collection and by the same person [@Barchard2011, 1837].
@@ -1232,15 +1232,9 @@ If data-entry errors are invisible to the authors themselves, they are doubly so
 But the case described above nevertheless suggests a valuable heuristic: when a work's conclusions suggest that a difficult problem will be easily solved---that democratic erosion will reflexively trigger a backlash and a renewed public support for democracy, in the present instance---it warrants especially careful scrutiny.
 
 Data-entry errors are inevitable, and even following these recommendations is unlikely to eliminate them entirely.
-Further, the above suggestions follow closely from a specific case and, although they successfully help us identify and fix its data-entry issues, they do not constitute a panacea to cure all data-processing problems in all types of research. 
+Nevertheless, careful attention can minimize the threat of data-entry errors to our 'janitor work', our research, and our understanding of the world and maximize the transparency, openness, and credibility of our research.
 
-Nonetheless, we also hope the readers to see the shared logic of these suggestions and the growing literature to guide political scientists to conduct more reliable and credible research.
-For instance, in the same vein as our first suggestion, @Weidmann2023 provides a book-length set of illustrations on how to reduce "manual point and click" tasks found in a variety of studies with the `tidy`-data framework in the R language.
-@KapiszewskiKarcher2021 [, 288] even suggests that qualitative researchers should consider using "open-exchange format" of qualitative data analysis software to be more "transparent about the generation and analysis of data."
-Furthermore, we regard our efforts and recommendations as a contribution to the open science movement to produce more robust and credible research in the social sciences [see, e.g., @ChristensenEtAl2019] and beyond [see, e.g., @BarchardPace2011; @Lohr2014].
-With careful attention, not only can the threat of data-entry errors to our 'janitor work', our research, and our understanding of the world be minimized, but the transparency, openness, and credibility of our research can continuously grow.
-
-## References
+## References {.unlisted .unnumbered}
 
 ::: {#refs}
 :::
@@ -1250,7 +1244,7 @@ With careful attention, not only can the threat of data-entry errors to our 'jan
 \newpage
 \appendix
 
-# Online Supplementary Materials
+# Online Supplementary Materials {.unlisted .unnumbered}
 \captionsetup[figure]{list=yes}
 \setcounter{page}{1}
 \renewcommand{\thepage}{SI-\arabic{page}}
@@ -1258,8 +1252,10 @@ With careful attention, not only can the threat of data-entry errors to our 'jan
 \renewcommand{\thefigure}{SI.\arabic{figure}}
 \setcounter{table}{0}
 \renewcommand{\thetable}{SI.\arabic{table}}
-\listoftables
-\listoffigures
+\tableofcontents
+<!-- \listoftables -->
+<!-- \listoffigures -->
+
 
 # Tabular Results
 \newpage
