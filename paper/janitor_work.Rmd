@@ -425,11 +425,7 @@ This technique may be straightforward, but it is very much prone to error.
 Rates likely go up as the tedious task goes on.
 
 Like 'janitor work' itself, data-entry errors have thus far gained little attention in political science.
-In this piece, we illustrate the pernicious threat this problem poses by carefully scrutinizing a prominent recent work that examines how changes in democracy affect democratic support among the public [@Claassen2020b].^[
-In this study, we leverage the case of thermostatic support for democracy to emphasize the impact of data preprocessing---a largely underexplored but critical phase in research methodology---on empirical outcomes.
-As @Weidmann2023 points out, although data collection, processing, and analyses can all influence conclusions, they follow distinct principles and require different types of action. 
-Each of them merits specific attention, especially the data processing stage, our focus here [@Weidmann2023, 4-9].
-On the impact of data analysis, see @TaiEtAl2022a, which provides an in-depth discussion on that issue in the context of a similar substantive topic.]
+In this piece, we illustrate the pernicious threat this problem poses by carefully scrutinizing a prominent recent work that examines how changes in democracy affect democratic support among the public [@Claassen2020b].
 We document the data-entry errors that slipped past both the author and the journal's strict replication policy and how these errors affect the paper's results and conclusions.
 @Claassen2020b [, 51] concludes that when "elected leaders start dismantling democratic institutions and rights, public mood is likely to swing rapidly toward democracy again, providing something of an obstacle to democratic backsliding."
 We show that, after data-entry errors are corrected, there is no empirical evidence that public support responds thermostatically to changes in democracy in this way.
