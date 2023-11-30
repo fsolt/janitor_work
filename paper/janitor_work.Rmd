@@ -10,16 +10,16 @@ output:
 title: |
   | On Data 'Janitor Work' in Political Science:
   | The Case of Thermostatic Support for Democracy
-thanks: "Corresponding author: [yuehong-tai@uiowa.edu](mailto:yuehong-tai@uiowa.edu). Current version: `r format(Sys.time(), '%B %d, %Y')`.  Replication materials and complete revision history may be found at [https://github.com/fsolt/dem_mood](https://github.com/fsolt/dem_mood)."
+# thanks: "Corresponding author: [yuehong-tai@uiowa.edu](mailto:yuehong-tai@uiowa.edu). Current version: `r format(Sys.time(), '%B %d, %Y')`.  Replication materials and complete revision history may be found at [https://github.com/fsolt/janitor_work](https://github.com/fsolt/janitor_work)."
 author:
-- Yue Hu
+# - Yue Hu
   # affiliation: Tsinghua University
-- Yuehong Cassandra Tai
+# - Yuehong Cassandra Tai
   # affiliation: University of Iowa
-- Frederick Solt
+# - Frederick Solt
   # affiliation: University of Iowa
 anonymous: true  
-abstract: "'Janitor work'---getting data into a format appropriate for analysis---has grown increasingly important as political science research has come to depend on data drawn from hundreds of sources.  One tempting solution is to simply enter data by hand, but this approach raises serious risks of data-entry error, a difficult-to-catch problem with the potential to fatally undermine our conclusions. Underscoring these points, we identify data-entry errors in a prominent recent article, Claassen's 2020 study examining how changes in democracy influence public support for democracy, and show that when these errors are corrected, its models provide no support for its conclusions.  Researchers should refrain from hand-entering data as much as possible, and we offer additional suggestions for avoiding errors."
+abstract: "'Janitor work'---getting data into a format appropriate for analysis---has grown increasingly important as political science research has come to depend on data drawn from hundreds of sources.  One tempting solution is to simply enter data by hand, but this approach raises serious risks of data-entry error, a difficult-to-catch problem with the potential to fatally undermine our conclusions. Underscoring these points, we identify data-entry errors in a prominent recent article, Claassen's 2020 study examining how changes in democracy influence public support for democracy, and show that when these errors are corrected, its models provide no support for its conclusions.  Researchers should refrain from hand-entering data as much as possible, and we offer additional suggestions for avoiding errors. [123 words]"
 keywords: ""
 tables: true # enable longtable and booktabs
 citation_package: natbib
@@ -429,11 +429,6 @@ In this piece, we illustrate the pernicious threat this problem poses by careful
 We document the data-entry errors that slipped past both the author and the journal's strict replication policy and how these errors affect the paper's results and conclusions.
 @Claassen2020b [, 51] concludes that when "elected leaders start dismantling democratic institutions and rights, public mood is likely to swing rapidly toward democracy again, providing something of an obstacle to democratic backsliding."
 We show that, after data-entry errors are corrected, there is no empirical evidence that public support responds thermostatically to changes in democracy in this way.
-
-<!-- Before elaborating, we note that it is impossible to tell with complete certainty the exact reason for the issues we identify; it is possible that coding mistakes or even intentional decisions are at fault rather than data-entry errors strictly speaking.  -->
-<!-- Further, our point here is not to criticize a particular result, but to highlight a case that "reflects on typical robustness challenges" [@JanzFreese2021, 306] and so to illuminate how idiosyncratic manual data entry processes can cause problems for empirical research. -->
-<!-- On this basis, we conclude with four practical suggestions to help political scientists reduce data-entry errors and their impact. -->
-<!-- Rather than merely a single replication of a difficult-to-detect phenomenon, we hope readers will also consider this work as a contribution to the growing "open science" movement to build more reliable and transparent research both in and beyond social science [@ChristensenEtAl2019; @EngzellRohrer2021]. -->
 
 
 ## Data-Entry Errors and Democratic Support {.unlisted .unnumbered}
